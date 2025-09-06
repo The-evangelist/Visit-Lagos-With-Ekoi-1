@@ -1,0 +1,108 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    color: #1D3557;
+}
+
+img {
+    width: 100px;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around ;
+}
+
+.exhibit {
+    border-radius: 50%;
+    height: 100px;
+}
+
+.guide {
+    display: flex;
+    width: 400px;
+    height: 250px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #48cae4;
+    margin: 20px auto;
+    border-bottom: 5px solid #0077b6;
+}
+
+.me {
+    width:180px;
+    height: 220px;
+    border: 0px;
+    margin: 15px 0px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.info {
+    border: 0px;
+    margin: 15px;
+}
+
+.body {
+    border: 1px solid #eff7f6;
+    margin-bottom: 40px;
+    background-color: #eff7f6;
+}
+
+.hero {
+    height: 400px;
+    margin: 0px;
+    border: 0px solid;
+    background-image: url(/images/lagos4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-talk {
+    background-color: #554971;
+    color: #edf6f9;
+    padding: 5px 15px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+.title {
+    background-color: #74b3ce;
+    color: #edf6f9;
+    padding: 5px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.art-house {
+    width: 200px;
+}
+
+.lekki {
+    width: 200px;
+}
+ 
+.slave-trade {
+    width: 200px;
+}
+
+.exhibit:hover {
+    height: 120px;
+    width: 120px;
+}
